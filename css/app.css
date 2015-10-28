@@ -1,0 +1,44 @@
+body {font-family: 'Raleway', sans-serif;}
+a:hover {cursor: pointer;}
+.mainicon {width: 190px; margin: 0 auto;}
+#title {text-align: center; background: black url('../img/titlebg.jpg') top center no-repeat fixed;}
+#title .titlepadder { padding:200px 0 73px;}
+.splash {background: url('../img/splash.jpg') top left repeat-x; height: 10px;}
+#about { background: white; padding: 80px 0;}
+.titlebacker {background: white; padding: 20px; }
+#portfolio { background: black url('../img/Ptexture.png') top left repeat fixed; padding: 0 0 100px;}
+#portfolio .arttitles { color: white; margin-bottom: 30px; margin-top:55px;}
+.web {border-bottom: 5px solid #dd5e01;}
+.print {border-bottom: 5px solid #009307;}
+.logo {border-bottom: 5px solid #3435ff;}
+.ads {border-bottom: 5px solid #ff5cdf;}
+#portfolio .arttitles h2 {font-weight: 700;}
+.examples { margin-bottom: 30px; border: 2px solid black;}
+.examples:hover {border: 2px solid white;}
+.examples .example-body { min-height: 166px; background: white; padding: 0 15px 20px; display: block; width: 100%; overflow: hidden;}
+.examples .logo-body { background: white; padding: 0 15px 20px; display: block; width: 100%; overflow: hidden;}
+.artimg { max-height: 182px; overflow: hidden; display: block; background: #f6f6f6; position: relative;}
+.artimg img {width: 100%;}
+.padimg { padding: 20px;}
+.padimg img {margin: 0 auto;}
+.artimgbgr { max-height: 264px; overflow: hidden; display: block; width: 100%;}
+.modal-body img {margin: 0 auto;}
+.sitename { position: fixed; left: 4px; top: -15px; z-index: 9999;}
+.sectionnav { position: fixed; left: 5px; top: 47px; z-index: 9999;}
+.sitename h3 { color: white; background: rgba(17, 17, 17, 0.8); padding: 5px;}
+.sectionnav ul { list-style: none; margin: 0; padding: 0;}
+.sectionnav ul li { list-style: none;}
+.sectionli {cursor: pointer; color: white; font-size: 16px; list-style: none; height: 10px; padding: 20px 6px; margin: 2px; float: left; display: block; clear: both;}
+.sectionli:hover, .sectionli:active, .sectionli:focus { color: white; text-decoration: none;}
+.wd { background: #dd5e01;}
+.pd { background: #009307;}
+.ld { background: #3435ff;}
+.ad { background: #ff5cdf;}
+.bowout {
+	opacity: 0;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-ms-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+}
