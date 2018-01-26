@@ -158,4 +158,84 @@ Body parameters:
 
 Updates a application settings value
 
+***
 
+### Methods specific to roles.
+
+`POST /auth/super/role` - create a new role
+
+Required permission: `IS_SUPER_USER`
+
+Body parameters:
+
+* `name` - Required
+* `description` - Optional
+* `store_type_id` - Required
+* `store_type` - Required
+* `is_active` - Optional (defaults to true)
+* `[ permissions ]` - Optional
+
+Saves a new role.
+
+***
+
+`PUT /auth/super/role/:roleId` - Update a role
+
+Required permission: `IS_SUPER_USER`
+
+Body parameters:
+
+* `id` - Required
+* `name` - Optional
+* `description` - Optional
+* `is_active` - Optional 
+* `[ permissions ]` - Optional
+
+Updates a role name or description and mark active/inactive
+
+***
+
+### Methods specific to updating a permission.
+
+`PUT /auth/super/permissions/:roleId` - Update permission
+
+Required permission: `IS_SUPER_USER`
+
+Body parameters:
+
+* `permission_id` - Required
+* `name` - Optional
+* `description` - Optional
+
+Updates a permission name or description
+
+***
+
+### Methods specific to services.
+
+`POST /auth/super/service` - create a new service
+
+Required permission: `IS_SUPER_USER`
+
+Body parameters:
+
+* `name` - Required
+* `description` - Optional
+* `is_active` - Optional (defaults to true)
+
+Saves a new service.
+
+***
+
+`PUT /auth/super/service/:serviceId` - Update a service
+
+Required permission: `IS_SUPER_USER`
+
+Body parameters:
+
+* `id` - Required
+* `name` - Optional
+* `description` - Optional
+* `is_active` - Optional 
+
+Updates a service name or description and mark active/inactive
