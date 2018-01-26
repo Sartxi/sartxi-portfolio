@@ -1,4 +1,6 @@
-## Methods specific to organizations (auto-groups) by Super Admin.
+## Methods used by Super Users.
+
+### Methods specific to organizations (auto-groups).
 
 `POST /auth/super/organizations` - create a new organization
 
@@ -28,7 +30,7 @@ Updates a organization name or active/inactive.
 
 ***
 
-## Methods specific to stores (dealerships/vendors) by Super Admin.
+### Methods specific to stores (dealerships/vendors) by Super Admin.
 
 `POST /auth/super/store` - create a new store
 
