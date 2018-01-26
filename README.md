@@ -1,4 +1,4 @@
-Methods specific to a Super Admin Auto Groups.
+## Methods specific to a Super Admin Auto Groups.
 
 `POST /auth/super/organizations` - create new auto group
 
